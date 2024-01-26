@@ -30,6 +30,7 @@ public class Customer {
     public Customer(CustomerDTO data) {
         this.name = data.name();
         this.email = data.email();
+        this.phone = data.phone();
         this.cpf = data.cpf();
         this.status = true;
     }
